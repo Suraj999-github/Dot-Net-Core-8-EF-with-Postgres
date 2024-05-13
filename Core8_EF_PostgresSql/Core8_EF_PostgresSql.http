@@ -1,0 +1,6 @@
+@Core8_EF_PostgresSql_HostAddress = http://localhost:5019
+
+GET {{Core8_EF_PostgresSql_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,21 @@
+1. Install packages Npgsql.EntityFrameworkCore.PostgreSQL
+2.Microsoft.EntityFrameworkCore
+
+CREATE TABLE public.students (
+	id bigserial NOT NULL,	
+	phone_number text NULL,
+	salutation text NULL,
+	first_name text NULL,
+	middle_name text NULL,
+	last_name text NULL,
+	created_date timestamp NULL DEFAULT CURRENT_TIMESTAMP,	
+	CONSTRAINT students_pkey PRIMARY KEY (id)
+);
+
+In program.cs file add
+builder.Services.AddScoped<ApplicationDbContext>();
+
+Add connection string in appsetting
+  "ConnectionStrings": {
+    "WebApiDatabase": "Host=localhost; Database=my_database; Username=user_name; Password=pwd"
+  },

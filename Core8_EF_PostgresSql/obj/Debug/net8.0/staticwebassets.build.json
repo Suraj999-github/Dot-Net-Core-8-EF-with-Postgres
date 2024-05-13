@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "XEzehLG34aTGmqgY4rqnsTfADWyJwHYK96CQMG4pArs=",
+  "Source": "Core8_EF_PostgresSql",
+  "BasePath": "_content/Core8_EF_PostgresSql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
